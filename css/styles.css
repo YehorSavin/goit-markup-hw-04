@@ -1,0 +1,292 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+
+
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-title{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+    font-size: 24px;
+    padding: 10px 32px;
+    display: inline-block;
+    border: 1px solid transparent
+}
+
+.button.primary{
+    display: inline-block;
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    padding: 10px 32px;
+    text-decoration: none;
+}
+
+
+
+
+
+.site-nav .link{
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+
+
+
+
+.hero-title{
+    margin-bottom: 40px;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.link-mail{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #2196F3;
+}
+
+.link-tel{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #757575;
+}
+
+.heading{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.link-pf{
+    text-decoration: none;
+}
+
+.paragraph-pf{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.whatwedo{
+    text-transform: uppercase;
+}
+
+.section-item{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.section-function{
+    font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 10px;
+
+color: #212121;
+}
+
+.link-team{
+    text-decoration: none;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    text-align: center;
+    padding-bottom: 210px;
+    padding-top: 200px;
+}
+
+.function-items{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.function-img{
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.site-nav{
+    display: flex;
+}
+
+.site-nav li{
+    margin-right: 50px;
+}
+
+.site-nav li:last-child{
+    margin-right: 0;
+}
+
+.container .main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 85px;
+}
+
+.site-address{
+    display: flex;
+    margin-left: auto;
+}
+
+.site-address li{
+    margin-right: 50px;
+}
+
+.function-list{
+    display: flex;
+}
+
+.function-img{
+    margin-left: 102px;
+}
+
+.function-list .fnc-list{
+    width: 270px;
+}
+
+.function-list li{
+    margin-right: 30px;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-element{
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+address{
+    font-style: normal;
+}
+
+/* цвет основного текста #757575 */
+/* цвет вторичного текста #212121 */
+/* белый текст #FFFFFF */
+/* акцент #2196F3 */
