@@ -14,12 +14,12 @@
         <div class="container">
             <nav class="main-nav">
                 <a href="/"><img src="./images/WebStudio.svg" class="logo" alt="Логотип"></a>
-                <ul class="site-nav">
+                <ul class="list site-nav">
                     <li><a href="index.html" class="link">Студия</a></li>
                     <li><a href="portfolio.html" class="link current">Портфолио</a></li>
                     <li><a href="#contacts" class="link">Контакты</a></li>
                 </ul>
-                <ul class="site-address">
+                <ul class="list site-address">
                     <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
                     <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
                 </ul>
@@ -27,78 +27,96 @@
             </div>
     </header>
     <main>
-        <section>
-            <h1 hidden>Наши работы</h1>
-            <ul>
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
-            </ul>
+        <section class="portfolio section">
         <div class="container">
-            <ul class="flex-container">
+            <h1 hidden>Наши работы</h1>
+            <ul class="list btn-list">
+                <li><button type="button" class="button-pf">Все</button></li>
+                <li><button type="button" class="button-pf">Веб-сайты</button></li>
+                <li><button type="button" class="button-pf">Приложения</button></li>
+                <li><button type="button" class="button-pf">Дизайн</button></li>
+                <li><button type="button" class="button-pf">Маркетинг</button></li>
+            </ul>
+            <ul class="list flex-container">
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/tehnokrk.jpg" alt="">
+                    <div class="pf-text">                   
                     <h2 class="heading">Технокряк</h2>
                     <p class="paragraph-pf">Веб-сайт</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/neworlean.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Постер New Orlean vs Golden Star</h2>
                     <p class="paragraph-pf">Дизайн</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/seafood.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Ресторан Seafood</h2>
                     <p class="paragraph-pf">Приложение</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/prime.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Проект Prime</h2>
                     <p class="paragraph-pf">Маркетинг</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/boxes.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Проект Boxes</h2>
                     <p class="paragraph-pf">Приложение</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/inspiration.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Inspiration has no Borders</h2>
                     <p class="paragraph-pf">Веб-сайт</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/LE.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Издание Limited Edition</h2>
                     <p class="paragraph-pf">Дизайн</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/lab.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Проект LAB</h2>
                     <p class="paragraph-pf">Маркетинг</p>
+                    </div>
                     </a>
                 </li>
                 <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/business.jpg" alt="">
+                    <div class="pf-text">
                     <h2 class="heading">Growing Business</h2>
                     <p class="paragraph-pf">Приложение</p>
+                    </div>
                     </a>
                 </li>
             </ul>
@@ -106,19 +124,17 @@
         </section>
     </main>
     <footer>
-        <div>
+        <div class="container">
             <a href="/"><img src="./images/WebStudio.svg" alt="Логотип"></a>
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <address>
-                <ul>
+                <ul class="list">
                 <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
                 </ul>
             </address>
-        </div>
-        <div>
             <h3>присоединяйтесь</h3>
-            <ul>
+            <ul class="list">
                 <li><a href="https://www.instagram.com/?hl=ru" target="_blank">Instgram</a></li>
                 <li><a href="https://twitter.com/explore" target="_blank">Twitter</a></li>
                 <li><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank">Facebook</a></li>
