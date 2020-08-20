@@ -260,6 +260,7 @@ color: #212121;
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
+    background-image: url(../images/hero.jpg);
 }
 
 .function-items{
@@ -309,6 +310,10 @@ color: #212121;
     margin-right: 30px;
 }
 
+.fnc-li{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .function-img{
     margin-left: 102px;
 }
@@ -350,6 +355,63 @@ address{
 
 .pf-text{
     padding: 24px 20px;
+}
+
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.social-list .social-element:not(:last-child){
+    margin-right: 10px;
+}
+
+.social-link{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link:hover {
+    background-color: #2196F3;
+}
+.social-link:hover .svg-team {
+    fill: #FFFFFF;
+}
+
+.fnc-li h3,
+.fnc-li p{
+    text-align: center;
+}
+
+.svg-team{
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.client-svg {
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    fill: blue;
+}
+
+.svg-client{
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    fill: blue;
 }
 
 /* цвет основного текста #757575 */
