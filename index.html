@@ -20,8 +20,10 @@
                 <li><a href="#contacts" class="link">Контакты</a></li>
             </ul>
             <ul class="list site-address">
-                <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="link-mail">
+                    <svg class="mail-svg" width="16px" height="12px"><use href="./images/sprite.svg#envelope"></use></svg> info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link-tel">
+                    <svg class="phone-svg"  width="10px" height="16px"><use href="./images/sprite.svg#smartphone"></use></svg> +38 096 111 11 11</a></li>
             </ul>
         </nav>
         </div>
@@ -38,22 +40,30 @@
             <h2 hidden>Функции</h2>
             <ul class="list function-list">
                 <li class="fnc-list">
-                    <img src="./images/antenna.svg" class="function-img" alt="">
+                    <div>
+                         <svg class="function-img"><use href="./images/sprite.svg#antenna"></use></svg>
+                    </div>
                     <h3 class="section-function">Внимание к деталям</h3>
                     <p class="function-items">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li class="fnc-list">
-                    <img src="./images/clock.svg" class="function-img" alt="">
+                    <div>
+                         <svg class="function-img"><use href="./images/sprite.svg#clock"></use></svg>
+                    </div>
                     <h3 class="section-function">Пунктуальность</h3>
                     <p class="function-items">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li class="fnc-list">
-                    <img src="./images/diagram.svg" class="function-img" alt="">
+                    <div>
+                         <svg class="function-img"><use href="./images/sprite.svg#diagram"></use></svg>
+                    </div>
                     <h3 class="section-function">Планирование</h3>
                     <p class="function-items">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li class="fnc-list">
-                    <img src="./images/astronaut.svg" class="function-img" alt="">    
+                    <div>
+                         <svg class="function-img"><use href="./images/sprite.svg#astronaut"></use></svg>
+                    </div>    
                     <h3 class="section-function">Современные технологии</h3>
                     <p class="function-items">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -176,28 +186,28 @@
         <div class="container">
             <h2 class="section-title">Постоянные клиенты</h2>
             <ul class="list client-list">
-                <li><a href="" target="_blank" class="client-svg">
-                    <svg class="svg-client">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="44px" height="49px">
                         <use href="./images/sprite.svg#icon"></use>
                     </svg></a></li>
-                <li><a href="" target="_blank" class="client-svg">
-                    <svg class="svg-client">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="40px" height="52px">
                         <use href="./images/sprite.svg#merge"></use>
                     </svg></a></li>
-                <li><a href="" target="_blank" class="client-svg">
-                    <svg class="svg-client">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="41px" height="42">
                         <use href="./images/sprite.svg#company"></use>
                     </svg></a></li>
-                <li><a href="" target="_blank" class="client-svg">
-                    <svg class="svg-client">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="80px" height="42px">
                         <use href="./images/sprite.svg#foster"></use>
                     </svg></a></li>
-                <li><a href="" target="_blank" class="client-svg">
-                    <svg class="svg-client">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="59px" height="47px">
                         <use href="./images/sprite.svg#brand"></use>
                     </svg></a></li>
-                <li><a href="" target="_blank" class="client-svg">
-                    <svg class="svg-client">
+                <li class="client-li"><a href="" target="_blank" class="client-svg">
+                    <svg class="svg-client" width="88px" height="45px">
                         <use href="./images/sprite.svg#tagline"></use>
                     </svg></a></li>
             </ul>
@@ -205,15 +215,35 @@
         </section>
     </main>
     <footer id="contacts">
-        <div class="container">
-            <address class="address">
-                <ul class="list">
-                    <li><a href="/"><img src="./images/WebStudio.svg" alt="Логотип"></a></li>
-                    <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>      
-                    <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+        <div class="container footer-container">
+            <div class="foo-box"">
+                <address class="address">
+                    <ul class="list">
+                        <li><a href="/"><img src="./images/WebStudio.svg" alt="Логотип"></a></li>
+                        <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>      
+                        <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="foo-box">
+                <h3>присоединяйтесь</h3>
+                <ul class="join-list">
+                    <li class="social-element"><a href="https://www.instagram.com/?hl=ru" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#instagram"></use></svg></a></li>
+                    <li class="social-element"><a href="https://twitter.com/explore" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#twitter"></use></svg></a></li>
+                    <li class="social-element"><a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506868&extra_1=s%7Cc%7C303839676198%7Ce%7Cfacebook%7C&placement=&creative=303839676198&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506868%26adgroupid%3D60825658456%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9061020%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwjLD4BRAiEiwAg5NBFtguiMSLvXgGRlx7NWDnHO7qBOjqMM1xP7AW2_6qaOmT_vZ8aqdPcxoCaqUQAvD_BwE" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#facebook"></use></svg></a></li>
+                    <li class="social-element"><a href="" target="_blank" class="social-link">
+                        <svg class="svg-team">
+                        <use href="./images/sprite.svg#linkedin"></use></svg>
+                    </a></li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>

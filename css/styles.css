@@ -25,8 +25,6 @@ body{
     margin: 0;
 }
 
-
-
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -144,23 +142,22 @@ letter-spacing: 0.02em;
 }
 
 
-
-
-
 .hero-title{
     margin: 0;
     padding-bottom: 30px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
 
-.link-mail{
-    font-family: Roboto;
+.link-mail,
+.link-tel{
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -172,29 +169,25 @@ color: #757575;
 }
 
 .link-mail:hover,
-.link-mail:focus{
-    color: var(--accent-color);
-}
-
-.link-tel{
-    font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-
-color: #757575;
-}
-
+.link-mail:focus,
 .link-tel:hover,
 .link-tel:focus{
     color: var(--accent-color);
 }
 
+.mail-svg,
+.phone-svg{
+    /* fill: #757575; */
+    fill: currentColor;
+}
+
+/* .phone-svg:hover,
+.mail-svg:hover{
+    fill: #2196F3;
+} */
+
 .heading{
-    font-family: Roboto;
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -269,10 +262,18 @@ color: #212121;
 }
 
 .function-img{
-    margin-top: 0;
-    margin-bottom: 55px;
+    margin: 0 auto;
+    
 }
-
+.fnc-list div {
+    justify-content: center;
+    width: inherit;
+    height: 120px;
+    background: #F5F4FA;
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
 .site-nav{
     display: flex;
     margin-left: 93px;
@@ -303,7 +304,7 @@ color: #212121;
 }
 
 .function-list{
-    display: flex;   
+    display: flex;
 }
 
 .function-list .fnc-li:not(:last-child){
@@ -348,7 +349,7 @@ address{
     font-style: normal;
 }
 
-.address{
+footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -385,34 +386,56 @@ address{
     fill: #FFFFFF;
 }
 
-.fnc-li h3,
-.fnc-li p{
-    text-align: center;
-}
-
 .svg-team{
     fill: #AFB1B8;
     width: 20px;
     height: 20px;
 }
 
-
+.fnc-li h3,
+.fnc-li p{
+    text-align: center;
+}
 
 .client-svg {
-    width: 44px;
-    height: 44px;
+    width: 170px;
+    height: 90px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    fill: blue;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+    
+    .client-list .client-svg:hover,
+    .client-list .client-svg:focus {
+        border: 1px solid #2196F3;
+    }
+
+    .svg-client{
+        fill: #AFB1B8
+    }
+        
+.client-svg:hover .svg-client{
+    fill: #2196F3;
 }
 
-.svg-client{
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    fill: blue;
+
+
+.join-list{
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 24px;
 }
+
+.footer-container{
+    display: flex;
+}
+
+.foo-box{
+    width: 270px;
+}
+
 
 /* цвет основного текста #757575 */
 /* цвет вторичного текста #212121 */
